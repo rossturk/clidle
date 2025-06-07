@@ -2,7 +2,7 @@ version = 1
 
 #
 # This manfest is designed to be used in the repo:
-# git@github.com:ajeetdsouza/clidle.git
+# git@github.com:rossturk/clidle.git
 #
 
 [install]
