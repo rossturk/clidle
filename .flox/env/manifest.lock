@@ -1,0 +1,137 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "go": {
+        "pkg-path": "go"
+      }
+    },
+    "options": {},
+    "build": {
+      "clidle": {
+        "command": "  GOBIN=$out/bin go install\n",
+        "version": "20250607",
+        "description": "Play Wordle in your terminal."
+      }
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/c6h9pn9a4mwgz63qdiw70ac6fv7341v9-go-1.24.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "name": "go-1.24.3",
+      "pname": "go",
+      "rev": "d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "rev_count": 811203,
+      "rev_date": "2025-06-05T17:19:09Z",
+      "scrape_date": "2025-06-07T04:27:39.236449Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.24.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ps3admpzmc1ryvn9q7sw5xfd94dkrb3f-go-1.24.3"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/isgn9dhrlr1mix3swwr5h3aws839bafc-go-1.24.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "name": "go-1.24.3",
+      "pname": "go",
+      "rev": "d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "rev_count": 811203,
+      "rev_date": "2025-06-05T17:19:09Z",
+      "scrape_date": "2025-06-07T04:48:55.789020Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.24.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/45bnqhyyq40p91k3cjw0farx3hn1swx6-go-1.24.3"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/jfgcva919a7bz5zr781cgar6jn6vag9s-go-1.24.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "name": "go-1.24.3",
+      "pname": "go",
+      "rev": "d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "rev_count": 811203,
+      "rev_date": "2025-06-05T17:19:09Z",
+      "scrape_date": "2025-06-07T05:08:56.375617Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.24.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9z2kb6hxij7pqi0fgcn9ijhpb7ajpazs-go-1.24.3"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/8bavsrkczap815c77n4xyvzz4y7rx0r0-go-1.24.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "name": "go-1.24.3",
+      "pname": "go",
+      "rev": "d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "rev_count": 811203,
+      "rev_date": "2025-06-05T17:19:09Z",
+      "scrape_date": "2025-06-07T05:31:56.103910Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.24.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/5xvi25nqmbrg58aixp4zgczilfnp7pwg-go-1.24.3"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}

@@ -20,3 +20,6 @@ go.work
 
 # GoReleaser
 dist/
+
+# Flox build results
+result*

@@ -1,0 +1,17 @@
+version = 1
+
+#
+# This manfest is designed to be used in the repo:
+# git@github.com:ajeetdsouza/clidle.git
+#
+
+[install]
+go.pkg-path = "go"
+
+[build]
+clidle.version = "20250607"
+clidle.description = "Play Wordle in your terminal."
+clidle.command = '''
+  GOBIN=$out/bin go install
+'''
+
